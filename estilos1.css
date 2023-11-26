@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  display: flex; /* Agregado para centrar verticalmente */
+  align-items: center; /* Agregado para centrar verticalmente */
+}
+
+section {
+  width: 80%;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+      text-align: center; /* Centra el texto horizontalmente */
+    font-size: 45px; /* Establece el tamaño de la fuente en 30 píxeles */
+    color: #8C001A; /* Cambia el color a un tono de rojo sangre (#8C001A) */
+}
+h2 {
+  color: #333;
+  
+}
+
+p {
+  color: #666;
+  text-align: center;
+}
+
+div#slider {
+  background-color: rgba(1, 1, 1, 0.1);
+  width: 550px;
+  height: 340px;
+  margin: auto; /* Centrado horizontal */
+  overflow: hidden;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  width: 100%;
+  animation: cambio 25s infinite;
+  animation-direction: alternate;
+}
+
+li {
+  width: 100%;
+  list-style: none;
+}
+
+@keyframes cambio {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
